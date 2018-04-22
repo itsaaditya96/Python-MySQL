@@ -56,4 +56,29 @@ Summary of this assignment: To learn database connection of python with MySQL Se
 
 ## Assignment 2
 
+Create Commands
+
+
+### Assignment 3
+
+Objective: Given a real time problem, to search for a particular supplier and display the details
+
+Problem Description: Consider the scenario to display supplier details using different fetch methods.
+
+Code 1: Display all records from the table:
+```
+cur.fecthall()
+```
+
+Code 2: Display or fetch one record at a time from the database.
+```
+cur.fecthone()
+```
+
+Code 3: Display or fetch many records from the database.
+```
+cur.fecthmany()
+```
+
+
 
