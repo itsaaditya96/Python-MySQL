@@ -1,7 +1,7 @@
 # Python-MySQL
 Performing Database operations on MySQL using Python
 
-## Assignment 1
+## Assignment 1 - Database Connection: : Guided Activity
 
 Objective: Learn how to connect to MySQL Server and execute SQL Commands using python programming
 
@@ -54,31 +54,43 @@ connection.rollback()
 
 Summary of this assignment: To learn database connection of python with MySQL Server.
 
-## Assignment 2
+## Assignment 2 - Database Connection: Hands-On
 
 Create Commands
 
 
-### Assignment 3
+## Assignment 3 - Database: Retrieve Data : Guided Activity
 
 Objective: Given a real time problem, to search for a particular supplier and display the details
 
 Problem Description: Consider the scenario to display supplier details using different fetch methods.
 
-Code 1: Display all records from the table:
+#### Code 1: Display all records from the table:
 ```
 cur.fecthall()
 ```
 
-Code 2: Display or fetch one record at a time from the database.
+#### Code 2: Display or fetch one record at a time from the database.
 ```
 cur.fecthone()
 ```
 
-Code 3: Display or fetch many records from the database.
+#### Code 3: Display or fetch many records from the database.
 ```
 cur.fecthmany()
 ```
 
 
+## Assignment 4 - Database: Retrieve Data: Hands-On
 
+Objective: In continuation to Assignment 2 Hands-On and use SELECT operations to reterive and display records using python code.
+
+Problem Description:
+1. Retrieve all the records of item table.
+2. Retrieve the supplier name and supplier’s contact number of the supplier ‘S1002’.
+3. Retrieve the quotation id and supplier id of the quotations which have been either ‘Accepted’ or ‘Rejected’.
+4. Retrieve supplier details like supplier id and supplier name whose names have ‘i’ as the second character
+5. Retrieve the quotation details like quotationid, quotationdate, quotedprice for those quotations which are quoted in the range of 1400 and 2150
+
+
+## Assignment 5 - Database: Passing Parameters : Guided Activity
