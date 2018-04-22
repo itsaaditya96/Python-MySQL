@@ -2,6 +2,11 @@
 Performing Database operations on MySQL using Python
 
 ## Assignment 1
+
+Objective: Learn how to connect to MySQL Server and execute SQL Commands using python programming
+
+Problem Description: Easy Shop retial application need a database application to maintain their customer and purchase details. Write a python program to establish a database connectivity between MySQL and python.
+
 ### Step 1
 
 To Start, we need to install the driver mysql-python connector, download it from link below: -
@@ -26,7 +31,7 @@ import mysql.connector;
 ### Step 3
 #### Creating cursor for executing commands
 ```
-connection = mysql.connector.connect(host='localhost',database='rdbms',user='root',password='')
+connection = mysql.connector.connect(host='localhost',database='rdbms',user='root',password='')   '''Connection String'''
 cur = cur = connection.cursor();
 ```
 
@@ -47,5 +52,8 @@ For rollback use: -
 connection.rollback()
 ```
 
+Summary of this assignment: To learn database connection of python with MySQL Server.
 
 ## Assignment 2
+
+
