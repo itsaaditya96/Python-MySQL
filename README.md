@@ -29,3 +29,19 @@ import mysql.connector;
 connection = mysql.connector.connect(host='localhost',database='rdbms',user='root',password='')
 cur = cur = connection.cursor();
 ```
+
+### Step 4
+#### Connecting to Database and Execution Command
+```
+cur.execute("Select * from supplier;")
+data = cur.fetchall();
+```
+
+### Step 5
+#### Committing data into Database
+```
+connection.commit()
+```
+
+
+## Assignment 2
