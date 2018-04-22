@@ -17,7 +17,15 @@ python setup.py install
 
 Note = You'll need to add python to *System Variables under *Environmental Variables to execute installation command
 
-### Use below command to import MySQL Connector
+### Step 2
+#### Use below command to import MySQL Connector
 ```
 import mysql.connector;
+```
+
+### Step 3
+#### Creating cursor for executing commands
+```
+connection = mysql.connector.connect(host='localhost',database='rdbms',user='root',password='')
+cur = cur = connection.cursor();
 ```
