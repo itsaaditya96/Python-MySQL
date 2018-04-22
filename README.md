@@ -42,6 +42,10 @@ data = cur.fetchall();
 ```
 connection.commit()
 ```
+For rollback use: -
+```
+connection.rollback()
+```
 
 
 ## Assignment 2
