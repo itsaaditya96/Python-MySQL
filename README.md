@@ -20,7 +20,7 @@ cd <extracter zip path>\
 python setup.py install
 ```
 
-Note = You'll need to add python to *System Variables under *Environmental Variables to execute installation command
+Note: You'll need to add python to *System Variables under *Environmental Variables to execute installation command
 
 ### Step 2
 #### Use below command to import MySQL Connector
