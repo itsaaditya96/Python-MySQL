@@ -32,7 +32,7 @@ import mysql.connector;
 #### Creating cursor for executing commands
 ```
 connection = mysql.connector.connect(host='localhost',database='rdbms',user='root',password='')   '''Connection String'''
-cur = cur = connection.cursor();
+cur = connection.cursor();
 ```
 
 ### Step 4
